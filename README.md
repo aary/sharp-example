@@ -11,9 +11,11 @@ brew update
 brew install --HEAD facebook/fb/buck
 ```
 
-then run the following from the root of this project folder
+then run the following 
 
 ```
+git clone https://github.com/aary/sharp
+cd sharp
 git submodule update --init --recursive
 buck run example
 ```
