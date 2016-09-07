@@ -11,7 +11,8 @@ brew update
 brew install --HEAD facebook/fb/buck
 ```
 
-then run the following 
+then run the following to compile and run the example project that builds with 
+[`sharp`](https://github.com/aary/sharp). 
 
 ```
 git clone https://github.com/aary/sharp
