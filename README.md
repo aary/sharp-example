@@ -15,5 +15,5 @@ then run the following from the root of this project folder
 
 ```
 git submodule update --init --recursive
-buck run //:example
+buck run example
 ```
