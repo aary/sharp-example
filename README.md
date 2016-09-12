@@ -15,8 +15,8 @@ then run the following to compile and run the example project that builds with
 [`sharp`](https://github.com/aary/sharp). 
 
 ```
-git clone https://github.com/aary/sharp
-cd sharp
+git clone https://github.com/aary/sharp-example
+cd sharp-example
 git submodule update --init --recursive
 buck run example
 ```
