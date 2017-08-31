@@ -3,7 +3,8 @@
 using namespace std;
 
 int main() {
-    __attribute__((unused)) sharp::initializer_list_construct construct;
+    auto tag = sharp::initializer_list_construct{};
+    static_cast<void>(tag);
     cout << "Successfully included a library and built it!" << endl;
     return 0;
 }

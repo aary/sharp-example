@@ -4,6 +4,6 @@ cxx_binary(
         "example.cpp",
     ],
     deps = [
-        "sharp//Tags:Tags", 
+        "sharp//:sharp", 
     ],
 )
